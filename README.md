@@ -1,7 +1,7 @@
 # **Helgrind ᛬ Ásvættir Field Forge**
 ---
 
-Norse-themed (Hel realm) optimization UI for field developers working away from HQ — tuned for ThinkPad T490, Cursor IDE, and isolated project environments.  
+Norse-themed optimization UI for field developers working away from HQ — tuned for ThinkPad T490, Cursor IDE, and isolated project environments.  
 Helgrind is a local device-control and optimization console that applies durable OS-level tuning without any cloud services or background daemons.
 
 ---
