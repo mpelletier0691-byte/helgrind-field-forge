@@ -1,12 +1,17 @@
-Helgrind ᛬ Ásvættir Field Forge
+# **Helgrind ᛬ Ásvættir Field Forge**
+---
 
-Norse-themed (Hel realm) optimization UI for field developers working away from HQ — tuned for ThinkPad T490, Cursor IDE, and isolated project environments.
+Norse-themed (Hel realm) optimization UI for field developers working away from HQ — tuned for ThinkPad T490, Cursor IDE, and isolated project environments.  
 Helgrind is a local device-control and optimization console that applies durable OS-level tuning without any cloud services or background daemons.
-Launch
+
+---
+
+## **Launch**
+---
 
 Double-click Helgrind on the Desktop, or run:
-bash
 
+```bash
 ~/asvaettir-device-opt/helgrind/launch-helgrind.sh
 
 On first launch, Helgrind installs UI dependencies (python3-tk, CustomTkinter, JetBrains Mono).
@@ -96,3 +101,7 @@ It applies durable OS-level configuration locally and operates entirely offline.
 License
 
 Apache-2.0 — see LICENSE for details.
+Code
+
+
+---
