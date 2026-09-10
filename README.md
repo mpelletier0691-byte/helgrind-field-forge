@@ -1,14 +1,15 @@
 Helgrind ᛬ Ásvættir Field Forge
 
-Norse‑themed optimization UI for field developers working away from HQ — tuned for ThinkPad T490, Cursor IDE, and isolated project environments. Helgrind is a local device‑control and optimization console that applies durable OS‑level tuning without any cloud services or background daemons.
+Norse-themed (Hel realm) optimization UI for field developers working away from HQ — tuned for ThinkPad T490, Cursor IDE, and isolated project environments.
+Helgrind is a local device-control and optimization console that applies durable OS-level tuning without any cloud services or background daemons.
 Launch
 
-Double‑click Helgrind on the Desktop, or run:
+Double-click Helgrind on the Desktop, or run:
 bash
 
 ~/asvaettir-device-opt/helgrind/launch-helgrind.sh
 
-On first launch, Helgrind installs UI dependencies (python3‑tk, CustomTkinter, JetBrains Mono).
+On first launch, Helgrind installs UI dependencies (python3-tk, CustomTkinter, JetBrains Mono).
 UI
 Element	Purpose
 Toolbar (always visible)	Branding, workspace path, live status
@@ -18,7 +19,7 @@ Mímisbrunnr Log	Bottom log well for live output
 Helheim Review
 
 Helheim Scan performs a safe audit and tags suspicious files under:
-Code
+bash
 
 ~/asvaettir-device-opt/helheim-review/
 
@@ -28,11 +29,11 @@ A manifest.json is generated for manual review. Findings may include:
 
     dpkg audit issues
 
-    World‑writable files
+    World-writable files
 
     Empty files
 
-Helgrind never auto‑removes files — all findings require human review.
+Helgrind never auto-removes files — all findings require human review.
 Dev Armory Profiles
 
     Core Forge — git, build tools, ripgrep, tmux
@@ -50,17 +51,17 @@ Dev Armory Profiles
 Workspace
 
 Default field project root:
-Code
+bash
 
 ~/Asvaettir/workspace
 
 You can set a custom path directly in the toolbar.
-Installation (Open‑Source Build)
+Installation (Open-Source Build)
 
 Clone the repository:
 bash
 
-git clone https://github.com/<your-username>/helgrind-field-forge.git
+git clone https://github.com/mpelletier0691-byte/helgrind-field-forge.git
 cd helgrind-field-forge
 
 Install dependencies:
@@ -81,17 +82,17 @@ Requirements
 
     CustomTkinter
 
-    python3‑tk
+    python3-tk
 
     pkexec / PolicyKit
 
-    TLP, zram‑tools, systemd timers
+    TLP, zram-tools, systemd timers
 
 All dependencies are installed automatically via install-deps.sh.
 Disclaimer
 
 Helgrind is not a daemon, not a cloud service, and not a remote management tool.
-It applies durable OS‑level configuration locally and operates entirely offline.
+It applies durable OS-level configuration locally and operates entirely offline.
 License
 
-Apache‑2.0 — see LICENSE for details.
+Apache-2.0 — see LICENSE for details.
