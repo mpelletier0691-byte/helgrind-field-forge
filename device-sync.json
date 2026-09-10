@@ -1,0 +1,33 @@
+{
+  "synced_at": "2026-09-10T18:02:46.313890+00:00",
+  "hostname": "asvaettirlabs-ThinkPad-T490",
+  "ram_hint": "Mem:           7.5Gi       2.7Gi       4.0Gi       500Mi       1.6Gi       4.8Gi",
+  "cpu_governor": "performance",
+  "swappiness": "10",
+  "full_forge_complete": true,
+  "optimize_script": true,
+  "install_report": true,
+  "tools": {
+    "git": true,
+    "node": true,
+    "ollama": true,
+    "docker": false,
+    "podman": false,
+    "gh": true,
+    "uv": false,
+    "lazygit": true,
+    "delta": true,
+    "direnv": true
+  },
+  "packages": {
+    "tlp": true,
+    "zram": true,
+    "earlyoom": true,
+    "unattended": true
+  },
+  "env_tunes": {
+    "99-asvaettir-dev.conf": true,
+    "99-asvaettir-llm-dev.conf": true
+  },
+  "cursor_rules": true
+}

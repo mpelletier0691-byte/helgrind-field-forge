@@ -1,0 +1,4 @@
+=== Helgrind deps 2026-05-18T15:54:45-04:00 ===
+Installing python3-tk (required for the UI window)…
+W: GPG error: https://downloads.cursor.com/aptrepo stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 42A1772E62E492D6
+E: The repository 'https://downloads.cursor.com/aptrepo stable InRelease' is not signed.
